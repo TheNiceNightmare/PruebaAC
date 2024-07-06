@@ -1,0 +1,121 @@
+﻿@model ConsultorioSeguros.Models.Asegurado
+
+@{
+    ViewData["Title"] = "Delete Asegurado";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+        }
+
+        .delete-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .delete-container h1 {
+                color: #dc3545;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .delete-container h3 {
+                color: #6c757d;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+        .btn-danger {
+            background-color: #dc3545;
+            border-color: #dc3545;
+        }
+
+            .btn-danger:hover {
+                background-color: #c82333;
+                border-color: #bd2130;
+            }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a6268;
+                border-color: #545b62;
+            }
+
+        .dl-horizontal dt {
+            font-weight: bold;
+        }
+
+        .dl-horizontal dd {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="delete-container">
+            <h1>Eliminar Asegurado</h1>
+
+            <h3>¿Estás seguro de que deseas eliminar este asegurado?</h3>
+
+            <div>
+                <h4>Detalles del Asegurado</h4>
+                <dl class="row dl-horizontal">
+                    <dt class="col-sm-3">
+                        Cédula
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Model.Cedula
+                    </dd>
+                    <dt class="col-sm-3">
+                        Nombre
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Model.Nombre
+                    </dd>
+                    <dt class="col-sm-3">
+                        Teléfono
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Model.Telefono
+                    </dd>
+                    <dt class="col-sm-3">
+                        Edad
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Model.Edad
+                    </dd>
+                </dl>
+
+                <form asp-action="DeleteConfirmed" method="post" class="text-center">
+                    <input type="hidden" asp-for="Id" />
+                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts para jQuery y Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

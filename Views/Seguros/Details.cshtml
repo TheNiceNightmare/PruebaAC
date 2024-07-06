@@ -1,0 +1,82 @@
+﻿@model ConsultorioSeguros.Models.Seguro
+
+@{
+    ViewData["Title"] = "Detalles del Seguro";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+
+        .card {
+            margin: 0 auto;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+            background-color: #007bff;
+            color: #ffffff;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .card-footer {
+            background-color: #f1f1f1;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .btn {
+            margin-right: 10px;
+        }
+
+        .btn-warning {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h3>Detalles del Seguro</h3>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label class="control-label font-weight-bold">Nombre</label>
+                    <p class="form-control-static">@Model.Nombre</p>
+                </div>
+                <div class="form-group">
+                    <label class="control-label font-weight-bold">Código</label>
+                    <p class="form-control-static">@Model.Codigo</p>
+                </div>
+                <div class="form-group">
+                    <label class="control-label font-weight-bold">Suma Asegurada</label>
+                    <p class="form-control-static">@Model.SumaAsegurada</p>
+                </div>
+                <div class="form-group">
+                    <label class="control-label font-weight-bold">Prima</label>
+                    <p class="form-control-static">@Model.Prima</p>
+                </div>
+            </div>
+            <div class="card-footer text-center">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Editar</a>
+                <a asp-action="Index" class="btn btn-secondary">Regresar a la Lista</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts para jQuery y Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

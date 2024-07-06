@@ -1,0 +1,90 @@
+﻿@model ConsultorioSeguros.Models.Seguro
+
+@{
+    ViewData["Title"] = "Eliminar Seguro";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .form-container h1 {
+                color: #dc3545;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .form-container h3 {
+                color: #dc3545;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+        .btn {
+            margin-top: 10px;
+        }
+
+        .btn-danger {
+            margin-right: 10px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>@ViewData["Title"]</h1>
+            <h3>¿Estás seguro de que quieres eliminar este seguro?</h3>
+
+            <div>
+                <h4>Detalles del Seguro</h4>
+                <dl class="row">
+                    <dt class="col-sm-3 font-weight-bold">Nombre</dt>
+                    <dd class="col-sm-9">@Model.Nombre</dd>
+                    <dt class="col-sm-3 font-weight-bold">Código</dt>
+                    <dd class="col-sm-9">@Model.Codigo</dd>
+                    <dt class="col-sm-3 font-weight-bold">Suma Asegurada</dt>
+                    <dd class="col-sm-9">@Model.SumaAsegurada</dd>
+                    <dt class="col-sm-3 font-weight-bold">Prima</dt>
+                    <dd class="col-sm-9">@Model.Prima</dd>
+                </dl>
+            </div>
+
+            <form asp-action="DeleteConfirmed" method="post">
+                <input type="hidden" asp-for="Id" />
+                <div class="text-center">
+                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts para jQuery y Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

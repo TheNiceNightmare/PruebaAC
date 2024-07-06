@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gRCzfjDQVlTbTx7Mpf8osgOEQmG58k2q7Un0Y2OeHTIs1yQxgvheVbGrUBvkcO0y6BsxZh7HGqfCIsgrofm/Ow==",
+  "dgSpecHash": "F8vzLeLaS/X8eUQ1DDu8BlgwjKdpouypQ3J4lHpOT+BkNKIWuGAuqYdnZTOU22g5TvRf5N8x5z2gAy/AH5M7Ig==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\ConsultorioSeguros.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.data.sqlclient\\5.2.1\\microsoft.data.sqlclient.5.2.1.nupkg.sha512",

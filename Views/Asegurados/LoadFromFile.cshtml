@@ -44,6 +44,10 @@
         .btn {
             margin-top: 10px;
         }
+
+        .text-danger {
+            color: #dc3545;
+        }
     </style>
 </head>
 <body>
@@ -51,7 +55,14 @@
         <div class="form-container">
             <h1>@ViewData["Title"]</h1>
 
-            @using (Html.BeginForm("UploadFile", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert alert-danger">
+                    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+                </div>
+            }
+
+            @using (Html.BeginForm("LoadFromFile", "Asegurados", FormMethod.Post, new { enctype = "multipart/form-data" }))
             {
                 <div class="form-group">
                     <label for="file">Seleccionar Archivo</label>

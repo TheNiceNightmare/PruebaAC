@@ -54,6 +54,7 @@ C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\
 C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\ConsultorioSeguros.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\ConsultorioSeguros.RazorAssemblyInfo.cache
 C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\ConsultorioSeguros.RazorAssemblyInfo.cs
+C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\ConsultorioSeguros.sourcelink.json
 C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\staticwebassets\msbuild.ConsultorioSeguros.Microsoft.AspNetCore.StaticWebAssets.props
@@ -70,4 +71,4 @@ C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\
 C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\ConsultorioSeguros.pdb
 C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\ConsultorioSeguros.genruntimeconfig.cache
 C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\ref\ConsultorioSeguros.dll
-C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\ConsultorioSeguros.sourcelink.json
+C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\bin\Debug\net8.0\CsvHelper.dll

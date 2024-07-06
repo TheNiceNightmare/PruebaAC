@@ -70,3 +70,4 @@ C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\
 C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\ConsultorioSeguros.pdb
 C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\ConsultorioSeguros.genruntimeconfig.cache
 C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\ref\ConsultorioSeguros.dll
+C:\Users\Usuario\Documents\Trabajo\PruebaAC\ConsultorioSeguros\obj\Debug\net8.0\ConsultorioSeguros.sourcelink.json

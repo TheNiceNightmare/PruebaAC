@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{86039989-9965-4C3A-9F08-575CC078FF8A}|ConsultorioSeguros.csproj|solutionrelative:controllers\\aseguradoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{86039989-9965-4C3A-9F08-575CC078FF8A}|ConsultorioSeguros.csproj|c:\\users\\usuario\\documents\\trabajo\\pruebaac\\consultorioseguros\\views\\asegurados\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86039989-9965-4C3A-9F08-575CC078FF8A}|ConsultorioSeguros.csproj|solutionrelative:views\\asegurados\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86039989-9965-4C3A-9F08-575CC078FF8A}|ConsultorioSeguros.csproj|c:\\users\\usuario\\documents\\trabajo\\pruebaac\\consultorioseguros\\controllers\\seguroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86039989-9965-4C3A-9F08-575CC078FF8A}|ConsultorioSeguros.csproj|solutionrelative:controllers\\seguroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86039989-9965-4C3A-9F08-575CC078FF8A}|ConsultorioSeguros.csproj|c:\\users\\usuario\\documents\\trabajo\\pruebaac\\consultorioseguros\\dataaccess\\aseguradosegurorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86039989-9965-4C3A-9F08-575CC078FF8A}|ConsultorioSeguros.csproj|solutionrelative:dataaccess\\aseguradosegurorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{86039989-9965-4C3A-9F08-575CC078FF8A}|ConsultorioSeguros.csproj|solutionrelative:dataaccess\\aseguradorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86039989-9965-4C3A-9F08-575CC078FF8A}|ConsultorioSeguros.csproj|c:\\users\\usuario\\documents\\trabajo\\pruebaac\\consultorioseguros\\controllers\\seguroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86039989-9965-4C3A-9F08-575CC078FF8A}|ConsultorioSeguros.csproj|solutionrelative:controllers\\seguroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{86039989-9965-4C3A-9F08-575CC078FF8A}|ConsultorioSeguros.csproj|c:\\users\\usuario\\documents\\trabajo\\pruebaac\\consultorioseguros\\views\\seguros\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{86039989-9965-4C3A-9F08-575CC078FF8A}|ConsultorioSeguros.csproj|solutionrelative:views\\seguros\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -78,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,20 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AseguradoSeguroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\DataAccess\\AseguradoSeguroRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\AseguradoSeguroRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\DataAccess\\AseguradoSeguroRepository.cs",
-              "RelativeToolTip": "DataAccess\\AseguradoSeguroRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAUwDQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T04:29:10.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ResultadosConsultaViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\ResultadosConsultaViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ResultadosConsultaViewModel.cs",
@@ -111,12 +102,11 @@
               "RelativeToolTip": "Models\\ResultadosConsultaViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T04:45:19.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T04:45:19.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AseguradosService.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\BusinessLogic\\AseguradosService.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\AseguradosService.cs",
@@ -124,21 +114,7 @@
               "RelativeToolTip": "BusinessLogic\\AseguradosService.cs",
               "ViewState": "AQIAADEAAAAAAAAAAAA+wD0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T02:54:30.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAkwEAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T03:05:34.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T02:54:30.718Z"
             },
             {
               "$type": "Document",
@@ -148,118 +124,39 @@
               "RelativeDocumentMoniker": "Controllers\\AseguradosController.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Controllers\\AseguradosController.cs",
               "RelativeToolTip": "Controllers\\AseguradosController.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAiwDsAAAAjAAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAiwHEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-06T02:54:40.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Seguro.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\Seguro.cs",
-              "RelativeDocumentMoniker": "Models\\Seguro.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\Seguro.cs",
-              "RelativeToolTip": "Models\\Seguro.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T04:53:19.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T04:51:57.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AseguradoSeguro.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\AseguradoSeguro.cs",
-              "RelativeDocumentMoniker": "Models\\AseguradoSeguro.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\AseguradoSeguro.cs",
-              "RelativeToolTip": "Models\\AseguradoSeguro.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T04:18:34.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Asegurado.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\Asegurado.cs",
-              "RelativeDocumentMoniker": "Models\\Asegurado.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\Asegurado.cs",
-              "RelativeToolTip": "Models\\Asegurado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T02:58:49.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SegurosService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\BusinessLogic\\SegurosService.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\SegurosService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\BusinessLogic\\SegurosService.cs",
-              "RelativeToolTip": "BusinessLogic\\SegurosService.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAADwv1YAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T03:08:42.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ResultadosConsulta.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Views\\Home\\ResultadosConsulta.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\ResultadosConsulta.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Views\\Home\\ResultadosConsulta.cshtml",
-              "RelativeToolTip": "Views\\Home\\ResultadosConsulta.cshtml",
-              "ViewState": "AQIAABYAAAAAAAAAAAAiwC8AAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Views\\Asegurados\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Asegurados\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Views\\Asegurados\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Asegurados\\Edit.cshtml",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAowFoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T04:04:14.792Z",
+              "WhenOpened": "2024-07-06T17:09:10.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SeguroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\DataAccess\\SeguroRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\SeguroRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\DataAccess\\SeguroRepository.cs",
-              "RelativeToolTip": "DataAccess\\SeguroRepository.cs",
-              "ViewState": "AQIAAJgAAAAAAAAAAAAiwKgAAAAbAAAA",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T04:29:24.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T03:05:34.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AseguradoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\DataAccess\\AseguradoRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\AseguradoRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\DataAccess\\AseguradoRepository.cs",
-              "RelativeToolTip": "DataAccess\\AseguradoRepository.cs",
-              "ViewState": "AQIAAMQAAAAAAAAAAAAiwNcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T02:56:02.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "SegurosController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Controllers\\SegurosController.cs",
               "RelativeDocumentMoniker": "Controllers\\SegurosController.cs",
@@ -272,7 +169,115 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AseguradoSeguroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\DataAccess\\AseguradoSeguroRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\AseguradoSeguroRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\DataAccess\\AseguradoSeguroRepository.cs",
+              "RelativeToolTip": "DataAccess\\AseguradoSeguroRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwDQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T04:29:10.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Seguro.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\Seguro.cs",
+              "RelativeDocumentMoniker": "Models\\Seguro.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\Seguro.cs",
+              "RelativeToolTip": "Models\\Seguro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T04:53:19.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T04:51:57.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AseguradoSeguro.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\AseguradoSeguro.cs",
+              "RelativeDocumentMoniker": "Models\\AseguradoSeguro.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\AseguradoSeguro.cs",
+              "RelativeToolTip": "Models\\AseguradoSeguro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T04:18:34.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Asegurado.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\Asegurado.cs",
+              "RelativeDocumentMoniker": "Models\\Asegurado.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Models\\Asegurado.cs",
+              "RelativeToolTip": "Models\\Asegurado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T02:58:49.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SegurosService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\BusinessLogic\\SegurosService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\SegurosService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\BusinessLogic\\SegurosService.cs",
+              "RelativeToolTip": "BusinessLogic\\SegurosService.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAADwv1YAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T03:08:42.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResultadosConsulta.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Views\\Home\\ResultadosConsulta.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ResultadosConsulta.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Views\\Home\\ResultadosConsulta.cshtml",
+              "RelativeToolTip": "Views\\Home\\ResultadosConsulta.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAiwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T04:04:14.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SeguroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\DataAccess\\SeguroRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\SeguroRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\DataAccess\\SeguroRepository.cs",
+              "RelativeToolTip": "DataAccess\\SeguroRepository.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAiwKgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T04:29:24.391Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "AseguradoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\DataAccess\\AseguradoRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\AseguradoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\DataAccess\\AseguradoRepository.cs",
+              "RelativeToolTip": "DataAccess\\AseguradoRepository.cs",
+              "ViewState": "AQIAAMQAAAAAAAAAAAAiwNcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T02:56:02.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Views\\Seguros\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Seguros\\Details.cshtml",
@@ -280,12 +285,11 @@
               "RelativeToolTip": "Views\\Seguros\\Details.cshtml",
               "ViewState": "AQIAADkAAAAAAAAAAAAowFIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T03:22:33.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T03:22:33.282Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Views\\Asegurados\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Asegurados\\Create.cshtml",
@@ -293,12 +297,11 @@
               "RelativeToolTip": "Views\\Asegurados\\Create.cshtml",
               "ViewState": "AQIAAD4AAAAAAAAAAAAowGMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T02:57:46.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T02:57:46.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Trabajo\\PruebaAC\\ConsultorioSeguros\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -306,8 +309,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T03:06:13.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T03:06:13.151Z"
             }
           ]
         }

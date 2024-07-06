@@ -60,6 +60,36 @@ namespace ConsultorioSeguros.Controllers
             return View(asegurado);
         }
 
+        // Acción para mostrar el formulario de edición
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            // Obtiene el asegurado por ID del servicio
+            var asegurado = _aseguradosService.GetAseguradoById(id);
+            if (asegurado == null)
+            {
+                return NotFound(); // Retorna 404 si no se encuentra el asegurado
+            }
+            // Pasa el asegurado a la vista de edición
+            return View(asegurado);
+        }
+
+        // Acción para manejar el envío del formulario de edición
+        [HttpPost]
+        public IActionResult Edit(Asegurado asegurado)
+        {
+            // Verifica si el modelo es válido
+            if (ModelState.IsValid)
+            {
+                // Llama al servicio para actualizar el asegurado
+                _aseguradosService.UpdateAsegurado(asegurado);
+                // Redirige a la vista deseada tras la edición exitosa
+                return RedirectToAction("Index"); // Cambia "Index" al nombre de la acción a la que deseas redirigir
+            }
+            // Devuelve la vista con el modelo que contiene los errores
+            return View(asegurado);
+        }
+
         // Acción para eliminar un asegurado
         [HttpPost]
         public IActionResult Delete(int id)
@@ -68,6 +98,34 @@ namespace ConsultorioSeguros.Controllers
             _aseguradosService.DeleteAsegurado(id);
             // Redirige a la vista de lista de asegurados
             return RedirectToAction("Index");
+        }
+
+        // Acción para cargar asegurados desde un archivo
+        [HttpGet]
+        public IActionResult LoadFromFile()
+        {
+            return View(); // Devuelve una vista donde el usuario puede subir el archivo
+        }
+
+        [HttpPost]
+        public IActionResult LoadFromFile(IFormFile file)
+        {
+            if (file != null && file.Length > 0)
+            {
+                using (var stream = new MemoryStream())
+                {
+                    file.CopyTo(stream);
+                    // Aquí puedes agregar lógica para procesar el archivo y cargar asegurados
+                    // stream.ToArray() te dará el contenido del archivo
+                }
+
+                // Redirige a la vista de lista de asegurados tras cargar el archivo
+                return RedirectToAction("Index");
+            }
+
+            // Si no se seleccionó ningún archivo, devuelve la vista con un mensaje de error
+            ModelState.AddModelError("", "Por favor selecciona un archivo.");
+            return View();
         }
     }
 }

@@ -7,13 +7,16 @@ namespace ConsultorioSeguros.DataAccess
 {
     public class AseguradoRepository
     {
+        // Cadena de conexión a la base de datos
         private readonly string _connectionString;
 
+        // Constructor que recibe la cadena de conexión para inicializar el repositorio
         public AseguradoRepository(string connectionString)
         {
             _connectionString = connectionString;
         }
 
+        // Método para agregar un nuevo asegurado a la base de datos
         public void Add(Asegurado asegurado)
         {
             using (var connection = new SqlConnection(_connectionString))
@@ -25,10 +28,11 @@ namespace ConsultorioSeguros.DataAccess
                 command.Parameters.AddWithValue("@Edad", asegurado.Edad);
 
                 connection.Open();
-                command.ExecuteNonQuery();
+                command.ExecuteNonQuery(); // Ejecuta la inserción en la base de datos
             }
         }
 
+        // Método para obtener todos los asegurados de la base de datos
         public IEnumerable<Asegurado> GetAll()
         {
             var asegurados = new List<Asegurado>();
@@ -41,6 +45,7 @@ namespace ConsultorioSeguros.DataAccess
                 {
                     while (reader.Read())
                     {
+                        // Lee los datos de cada asegurado y los añade a la lista
                         asegurados.Add(new Asegurado
                         {
                             Id = reader.GetInt32(reader.GetOrdinal("Id")),
@@ -56,6 +61,7 @@ namespace ConsultorioSeguros.DataAccess
             return asegurados;
         }
 
+        // Método para obtener un asegurado por su ID
         public Asegurado GetById(int id)
         {
             using (var connection = new SqlConnection(_connectionString))
@@ -68,6 +74,7 @@ namespace ConsultorioSeguros.DataAccess
                 {
                     if (reader.Read())
                     {
+                        // Lee los datos del asegurado y lo retorna
                         return new Asegurado
                         {
                             Id = reader.GetInt32(reader.GetOrdinal("Id")),
@@ -80,9 +87,10 @@ namespace ConsultorioSeguros.DataAccess
                 }
             }
 
-            return null;
+            return null; // Retorna null si el asegurado no se encuentra
         }
 
+        // Método para actualizar los datos de un asegurado en la base de datos
         public void Update(Asegurado asegurado)
         {
             using (var connection = new SqlConnection(_connectionString))
@@ -95,10 +103,11 @@ namespace ConsultorioSeguros.DataAccess
                 command.Parameters.AddWithValue("@Edad", asegurado.Edad);
 
                 connection.Open();
-                command.ExecuteNonQuery();
+                command.ExecuteNonQuery(); // Ejecuta la actualización en la base de datos
             }
         }
 
+        // Método para eliminar un asegurado de la base de datos por su ID
         public void Delete(int id)
         {
             using (var connection = new SqlConnection(_connectionString))
@@ -107,10 +116,11 @@ namespace ConsultorioSeguros.DataAccess
                 command.Parameters.AddWithValue("@Id", id);
 
                 connection.Open();
-                command.ExecuteNonQuery();
+                command.ExecuteNonQuery(); // Ejecuta la eliminación en la base de datos
             }
         }
 
+        // Método para obtener asegurados por su cédula
         public IEnumerable<Asegurado> GetAseguradosByCedula(string cedula)
         {
             var asegurados = new List<Asegurado>();
@@ -125,6 +135,7 @@ namespace ConsultorioSeguros.DataAccess
                 {
                     while (reader.Read())
                     {
+                        // Lee los datos de cada asegurado con la cédula especificada y los añade a la lista
                         asegurados.Add(new Asegurado
                         {
                             Id = reader.GetInt32(reader.GetOrdinal("Id")),
@@ -140,6 +151,7 @@ namespace ConsultorioSeguros.DataAccess
             return asegurados;
         }
 
+        // Método para obtener asegurados asociados a un seguro por el ID del seguro
         public IEnumerable<Asegurado> GetAseguradosBySeguroId(int seguroId)
         {
             var asegurados = new List<Asegurado>();
@@ -158,6 +170,7 @@ namespace ConsultorioSeguros.DataAccess
                 {
                     while (reader.Read())
                     {
+                        // Lee los datos de cada asegurado asociado al seguro especificado y los añade a la lista
                         asegurados.Add(new Asegurado
                         {
                             Id = reader.GetInt32(reader.GetOrdinal("Id")),
@@ -172,13 +185,14 @@ namespace ConsultorioSeguros.DataAccess
 
             return asegurados;
         }
+
+        // Método para obtener asegurados asociados a un seguro por el código del seguro
         public IEnumerable<Asegurado> GetAseguradosBySeguroCodigo(string codigo)
         {
             var asegurados = new List<Asegurado>();
 
             using (var connection = new SqlConnection(_connectionString))
             {
-                // Definir la consulta SQL con el parámetro
                 var command = new SqlCommand(
                     "SELECT a.* FROM Asegurados a " +
                     "JOIN AseguradosSeguros asg ON a.Id = asg.AseguradoId " +
@@ -186,8 +200,6 @@ namespace ConsultorioSeguros.DataAccess
                     "WHERE s.Codigo = @Codigo",
                     connection
                 );
-
-                // Añadir el parámetro con tipo específico
                 command.Parameters.Add("@Codigo", SqlDbType.NVarChar, 50).Value = codigo;
 
                 try
@@ -197,12 +209,12 @@ namespace ConsultorioSeguros.DataAccess
 
                     while (reader.Read())
                     {
+                        // Lee los datos de cada asegurado asociado al seguro con el código especificado y los añade a la lista
                         var asegurado = new Asegurado
                         {
                             Id = reader.GetInt32(reader.GetOrdinal("Id")),
                             Nombre = reader.GetString(reader.GetOrdinal("Nombre")),
                             Cedula = reader.GetString(reader.GetOrdinal("Cedula"))
-                            // Añadir otras propiedades necesarias
                         };
 
                         asegurados.Add(asegurado);
@@ -210,7 +222,7 @@ namespace ConsultorioSeguros.DataAccess
                 }
                 catch (Exception ex)
                 {
-                    // Manejo de excepciones
+                    // Manejo de excepciones en caso de error en la consulta
                     Console.WriteLine($"Error al ejecutar la consulta: {ex.Message}");
                 }
             }
